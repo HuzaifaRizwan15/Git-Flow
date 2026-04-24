@@ -1,9 +1,7 @@
-VERSION = "0.1.0"
-
-print("hello world")
+VERSION = "0.1.1"
 
 def add(a, b):
-    return a + b
+    return int(a) + int(b)   # ✅ fix
 
-print(add(2, 3))
+print(add(2, "3"))
 print(f"Version: {VERSION}")
