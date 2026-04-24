@@ -1,6 +1,5 @@
-print("hello world")
 
-def add(a, b):
-    return a + b
+def subtract(a, b):
+    return int(a) - int(b)  
 
-print(add(2, 3))
+print(add(2, 1))
