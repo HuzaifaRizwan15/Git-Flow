@@ -2,4 +2,4 @@
 def subtract(a, b):
     return int(a) - int(b)  
 
-print(add(2, 1))
+print(subtract(2, 1))
